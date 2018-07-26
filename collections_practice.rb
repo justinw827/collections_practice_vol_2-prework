@@ -12,5 +12,8 @@ def contain_a(arrayIn)
   arrayIn.each do |word|
     if word.include? 'a'
       retArray.push(word)
+    end
   end
+
+  return retArray
 end
