@@ -1,3 +1,5 @@
+require 'pry'
+
 def begins_with_r(tools)
   tools.each do |word|
     if word.downcase[0] != 'r'
@@ -33,4 +35,7 @@ end
 def count_elements(arrayIn)
   retArray = []
   arrayIn.each do |myHash|
+    newName = myHash[:name]
+    binding.pry
+  end
 end
