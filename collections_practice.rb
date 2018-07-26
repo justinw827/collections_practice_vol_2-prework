@@ -17,3 +17,11 @@ def contain_a(arrayIn)
 
   return retArray
 end
+
+def first_wa(arrayIn)
+  arrayIn.each do |word|
+    if word[0] == 'w' && word[1] == 'a'
+      return word
+    end
+  end
+end
