@@ -6,3 +6,10 @@ def begins_with_r(tools)
   end
   return true
 end
+
+def contain_a(arrayIn)
+  retArray = []
+  arrayIn.each do |word|
+
+  end
+end
