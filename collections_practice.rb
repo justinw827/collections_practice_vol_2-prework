@@ -36,6 +36,10 @@ def count_elements(arrayIn)
   retArray = []
   arrayIn.each do |myHash|
     newName = myHash[:name]
+    exists = false
+    retArray.each do |myHash2|
+      if myHash2[:name] == newName
+    end
     binding.pry
   end
 end
