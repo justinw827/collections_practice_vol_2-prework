@@ -39,7 +39,15 @@ def count_elements(arrayIn)
     exists = false
     retArray.each do |myHash2|
       if myHash2[:name] == newName
+        exists = true
+        myHash[:count] += 1
+      end
     end
+    if !exists
+      newHash[:count] = 1
+      retArray.push(newHash)
+    end
+
     binding.pry
   end
 end
