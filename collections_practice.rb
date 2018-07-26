@@ -50,5 +50,6 @@ def count_elements(arrayIn)
 
     #binding.pry
   end
+  binding.pry
   retArray
 end
