@@ -41,7 +41,7 @@ def count_elements(arrayIn)
       if myHash2[:name] == newName
         binding.pry
         exists = true
-        myHash[:count] += 1
+        myHash2[:count] += 1
       end
     end
     if !exists
