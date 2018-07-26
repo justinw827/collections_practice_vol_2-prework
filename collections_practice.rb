@@ -31,6 +31,6 @@ def remove_non_strings(arrayIn)
 end
 
 def count_elements(arrayIn)
-  myHash = Hash.new
-  arrayIn.each do ||
+  retArray = []
+  arrayIn.each do |myHash|
 end
