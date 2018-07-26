@@ -30,6 +30,7 @@ def remove_non_strings(arrayIn)
   arrayIn.delete_if{ |word| !(word.is_a? String) }
 end
 
-def count_elements(hashIn)
-  
+def count_elements(arrayIn)
+  myHash = Hash.new
+  arrayIn.each do ||
 end
