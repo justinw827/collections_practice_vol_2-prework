@@ -44,7 +44,7 @@ def count_elements(arrayIn)
       end
     end
     if !exists
-      newHash[:count] = 1
+      newHash = {count: 1}
       retArray.push(newHash)
     end
 
