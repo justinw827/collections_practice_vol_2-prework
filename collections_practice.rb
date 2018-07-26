@@ -48,7 +48,7 @@ def count_elements(arrayIn)
       retArray.push(newHash)
     end
 
-    #binding.pry
+    binding.pry
   end
   retArray
 end
