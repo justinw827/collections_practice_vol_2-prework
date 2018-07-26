@@ -25,3 +25,7 @@ def first_wa(arrayIn)
     end
   end
 end
+
+def remove_non_strings(arrayIn)
+  arrayIn.delete_if{ |word| !(word.is_a? String) }
+end
